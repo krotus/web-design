@@ -2,19 +2,20 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
-	<meta name="description" content="Projecte de diseny web" />
-	<title>Puls2014: Communitat de web designers</title>
+	<meta name="description" content="Proyecto de la primera generación del 2014 del curso de diseño web online" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
+	<title>Puls2014: Comunitat online de disenyadors</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css" />
 	<link rel="stylesheet" href="estilos.css" />
+	<script src="prefixfree.js"></script>
 </head>
 <body>
 	<header>
 		<figure id="logo">
 			<img src="logo.png" />
 		</figure>
-		<h1>
-			Puls2014: Communitat de web designers
-		</h1>
+		<h1>Puls2014: Comunitat online de disenyadors</h1>
 		<figure id="avatar">
 			<img src="avatar.jpg" />
 		</figure>
@@ -27,35 +28,40 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
 			<li id="publicar_nav">
-				<a href="#">Publicar</a>
+				<a href="#" class="icon-lapiz">Publicar</a>
 			</li>
 		</ul>
 	</nav>
+	<aside>
+		<video width="320" height="240" autoplay controls>
+			<source src="lecturas.mp4" type="video/mp4">
+			<source src="lecturas.ogg" type="video/ogg">
+			<!-- actualitza el teu navegador -->
+		</video>
+	</aside>
 	<section id="contenido">
 		<article class="item">
 			<figure class="imagen_item">
 				<img src="imagen.jpg" />
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">
-					Crear un login con Laravel
-				</a>
+				<a href="#">Aspen, un framework para Python</a>
 			</h2>
 			<div class="autor_item">
-				por <a href="#">Andreu Sala</a>
+				Por <a href="#">Andreu Sala</a>
 			</div>
 			<div class="datos_item">
-				<a href="#" class="tag_item">pony</a>
+				<a href="#" class="tag_item">Pony</a>
 				<span class="fecha_item">
-					hace <strong>5</strong> min
+					Hace <strong>5</strong> min
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
-				720
-				<a href="#" class="down">D</a>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="up icon-f-arriba"></a>
+				696
+				<a href="#" class="down icon-f-abajo"></a>
+				<a href="#" class="comentarios_item">3</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -63,25 +69,23 @@
 				<img src="imagen.jpg" />
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">
-					Facebook prueba una forma de monetizar aplicaciones para móviles
-				</a>
+				<a href="#">Top 5 de herramientas para realizar SEO</a>
 			</h2>
 			<div class="autor_item">
-				por <a href="#">Andreu Sala</a>
+				Por <a href="#">Andreu Sala</a>
 			</div>
 			<div class="datos_item">
-				<a href="#" class="tag_item">pony</a>
+				<a href="#" class="tag_item">Pony</a>
 				<span class="fecha_item">
-					hace <strong>5</strong> min
+					Hace <strong>5</strong> min
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
-				720
-				<a href="#" class="down">D</a>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="up icon-f-arriba"></a>
+				696
+				<a href="#" class="down icon-f-abajo"></a>
+				<a href="#" class="comentarios_item">3</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -89,25 +93,23 @@
 				<img src="imagen.jpg" />
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">
-					Cómo medir tu sueño, ejercicio y geolocalizar tu vida
-				</a>
+				<a href="#">Máscara de recorte en humo con After Effects</a>
 			</h2>
 			<div class="autor_item">
-				por <a href="#">Andreu Sala</a>
+				Por <a href="#">Andreu Sala</a>
 			</div>
 			<div class="datos_item">
-				<a href="#" class="tag_item">pony</a>
+				<a href="#" class="tag_item">Pony</a>
 				<span class="fecha_item">
-					hace <strong>5</strong> min
+					Hace <strong>5</strong> min
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
-				720
-				<a href="#" class="down">D</a>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="up icon-f-arriba"></a>
+				696
+				<a href="#" class="down icon-f-abajo"></a>
+				<a href="#" class="comentarios_item">3</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -115,25 +117,23 @@
 				<img src="imagen.jpg" />
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">
-					Top 5 de herramientas para realizar SEO
-				</a>
+				<a href="#">Vagrant, crea entornos de desarrollo virtualizados</a>
 			</h2>
 			<div class="autor_item">
-				por <a href="#">Andreu Sala</a>
+				Por <a href="#">Andreu Sala</a>
 			</div>
 			<div class="datos_item">
-				<a href="#" class="tag_item">pony</a>
+				<a href="#" class="tag_item">Pony</a>
 				<span class="fecha_item">
-					hace <strong>5</strong> min
+					Hace <strong>5</strong> min
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
-				720
-				<a href="#" class="down">D</a>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="up icon-f-arriba"></a>
+				696
+				<a href="#" class="down icon-f-abajo"></a>
+				<a href="#" class="comentarios_item">3</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -141,25 +141,23 @@
 				<img src="imagen.jpg" />
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">
-					Máscara de recorte en humo con After Effects
-				</a>
+				<a href="#">Automatizar tareas con Nginx y Fabric</a>
 			</h2>
 			<div class="autor_item">
-				por <a href="#">Andreu Sala</a>
+				Por <a href="#">Andreu Sala</a>
 			</div>
 			<div class="datos_item">
-				<a href="#" class="tag_item">pony</a>
+				<a href="#" class="tag_item">Pony</a>
 				<span class="fecha_item">
-					hace <strong>5</strong> min
+					Hace <strong>5</strong> min
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
-				720
-				<a href="#" class="down">D</a>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="up icon-f-arriba"></a>
+				696
+				<a href="#" class="down icon-f-abajo"></a>
+				<a href="#" class="comentarios_item">3</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -167,25 +165,23 @@
 				<img src="imagen.jpg" />
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">
-					Vagrant, crea entornos de desarrollo virtualizados
-				</a>
+				<a href="#">Dominio virtual para Laravel en Ubuntu</a>
 			</h2>
 			<div class="autor_item">
-				por <a href="#">Andreu Sala</a>
+				Por <a href="#">Andreu Sala</a>
 			</div>
 			<div class="datos_item">
-				<a href="#" class="tag_item">pony</a>
+				<a href="#" class="tag_item">Pony</a>
 				<span class="fecha_item">
-					hace <strong>5</strong> min
+					Hace <strong>5</strong> min
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
-				720
-				<a href="#" class="down">D</a>
-				<a href="#" class="comentarios_item">69</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="up icon-f-arriba"></a>
+				696
+				<a href="#" class="down icon-f-abajo"></a>
+				<a href="#" class="comentarios_item">3</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 	</section>
@@ -193,23 +189,7 @@
 		<p>
 			<strong>Powered by Andreu Sala</strong>
 		</p>
-		<p>
-			twitter/krotusa 2014
-		</p>
+		<p>twitter/krotusa 2014</p>
 	</footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
