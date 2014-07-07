@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
-	<meta name="description" content="Proyecto de la primera generación del 2014 del curso de diseño web online" />
+	<meta name="description" content="Projecte de tasteig de responsive design a l'any 2014 realitzat per Andreu Sala" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	<title>Puls2014: Comunitat online de disenyadors</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -28,12 +28,17 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
 			<li id="publicar_nav">
-				<a href="#" class="icon-lapiz">Publicar</a>
+				<a href="#" class="icon-lapiz" id="mostrar-form">Publicar</a>
 			</li>
 		</ul>
 	</nav>
+	<form action="" id="formulario" class="formulario">
+		<input type="text" id="titulo" placeholder="Título" required>
+		<input type="url" id="url" placeholder="Link" required>
+		<input type="submit" value="Agregar">
+	</form>
 	<aside>
-		<video width="320" height="240" autoplay controls>
+		<video width="320" height="240" autoplay>
 			<source src="lecturas.mp4" type="video/mp4">
 			<source src="lecturas.ogg" type="video/ogg">
 			<!-- actualitza el teu navegador -->
@@ -191,5 +196,7 @@
 		</p>
 		<p>twitter/krotusa 2014</p>
 	</footer>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js""></script>
+	<script src="formulario.js"></script>
 </body>
 </html>
